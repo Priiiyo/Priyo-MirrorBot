@@ -1,9 +1,6 @@
 name: Priyo MirrorBot Environment
 on: 
-  #releasepush:
-    #pushbuild
-  watch: 
-      types: [started]
+  push:
     branches: [ main ]
     paths-ignore: 'README.md'
   workflow_dispatch:
