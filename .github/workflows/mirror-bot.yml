@@ -1,4 +1,4 @@
-name: MirrorBot Environment Setup
+name: MirrorBot Environment
 on: 
   push:
     branches: [ main ]
